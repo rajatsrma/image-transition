@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(235, 223, 223);
+}
+h1 {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.imgContainer {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+.imgContainer img {
+  width: 500px;
+  height: 400px;
+}
+.image-transition {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.image-transition:hover {
+  opacity: 1;
+}
